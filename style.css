@@ -1,0 +1,119 @@
+body{
+    font-family: 'Sarabun', sans-serif;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav_il{
+   margin: 10px 20px;
+}
+.nav_il a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover{
+    background-color: #111;
+}
+.curly{
+   height:90vh;
+   width: 100%;
+   /* border: solid 1px black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+   padding-top: 12em;
+   text-align: center;
+   background-color: rgba(39, 39, 135, 0.4);
+}
+.blue{
+    background-image: url(home-bg.jpg);
+    background-repeat: no-repeat;
+}
+.mail{
+   width: 500px;
+   height: 300px;
+}
+.mail h5, h1{
+    text-align: center;
+}
+.mail input{
+    border-radius: 50px;
+    padding: 15px;
+}
+.inputs-container{
+    width: 400px;
+    height: 100px;
+    margin-left: 40px;
+    position: relative;
+}
+.email{
+    margin-left:20px;
+    width: 200px;
+    border: none;
+}
+.sub{
+    margin-left: -45px;
+    background-color: rgb(91, 229, 176);
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .mail h5{
+        display: none;
+    }
+    .success{
+        color: rgb(160, 167, 167);
+    }
+    .fully{
+        color: rgb(159, 159, 223);
+    }
+    .sub{
+       left: 90px;
+    }
+    .email{
+        text-align: center;
+    }
+    .third{
+        height: 300vh;
+        border: solid red 1px;;
+    }
+    .team{
+        display:block;
+    }
+    .teamm{
+        width:100%;
+        background-size: cover;
+    }
+    .what  p{
+        display: none;
+    }
+    .what h1{
+        font-size: 25px;
+    }
+}
+
+
+
